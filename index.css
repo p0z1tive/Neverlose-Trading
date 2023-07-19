@@ -1,0 +1,530 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Roboto';
+}
+/* Header Section Start */
+#header{
+    background-image: url(../images/header-bg.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nav{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    height: 8vh;
+}
+.logo{
+    flex: 2;
+}
+.logo img{
+    width: 250px;
+    padding: 0px 20px;
+}
+.menu{
+    flex: 3;
+    display: flex;
+    justify-content: flex-end;
+}
+.menu-links{
+    margin: 0px 15px;
+}
+.menu-links a{
+    text-decoration: none;
+    color: #626262;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.menu-links a:hover{
+    color: #3b4fe4;
+}
+.header-body{
+    height: 92vh;
+    display: flex;
+}
+.header-content{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 50px
+}
+.header-video{
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+.header-video iframe{
+    width: 90%;
+    border-radius: 20px;
+    box-shadow: 0 0 8 #626262;
+}
+.small-heading{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.green{
+    color: rgb(6, 255, 72);
+}
+.small-heading i{
+    margin-right: 5px;
+}
+.header-title{
+    color: #fff;
+    font-family: 'Roboto';
+    font-size: 36px;
+    font-weight: bolder;
+    margin: 20px 0px;
+}
+.header-desc{
+    color: #fff;
+    margin-bottom: 30px;
+    line-height: 25px;
+    padding-right: 50px;
+}
+.btn{
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 500px;
+    font-family: 'Roboto';
+    margin-right: 10px;
+    cursor: pointer;
+}
+.btn-white{
+    background-color: #fff;
+    border: 1px solid #fff;
+}
+/* Header Section End */
+
+/* About Section Start */
+#about{
+    padding-top: 50px;
+}
+.about-container{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.skills-row{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+.about-shap-top{
+    width: 100%;
+    border-left: 1500px solid #fff;
+    border-bottom: 40px solid transparent;
+    margin-top: 20px;
+}
+.about-shap-bottom{
+    width: 100%;
+    border-left: 1500px solid #fff;
+    border-top: 30px solid transparent;
+    margin-top: 40px;
+}
+.about{
+    z-index: -1;
+    margin-top: -40px;
+    background-image: url(../images/about-bg.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    padding: 50px;
+    padding-bottom: 30px;
+}
+.about-img{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+.about-img img{
+    width: 60%;
+    border-radius: 20px;
+    box-shadow: 0 0 8 #626262;
+}
+.about-content{
+    flex: 1;
+    padding: 0px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.yellow{
+    color: #f7b500;
+}
+.about-message{
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 45px;
+}
+.author{
+    margin-top: 10px;
+    font-size: 1.2rem;
+    color: #fff;
+    font-weight: bold;
+}
+.author-post{
+    color: #fff;
+    font-size: 14px;
+    margin-top: 3px;
+}
+/* About Section End */
+/* Courses Section Start */
+#course{
+    padding: 50px;
+    background-image: url(../images/course-bg.svg);
+    background-position: top;
+    background-repeat: repeat;
+    background-size: cover;
+}
+.featured-course-container{
+    display: flex;
+    padding: 50px 0px;
+}
+.featured-course-video{
+    flex: 3;
+    display: flex;
+    align-items: center;
+}
+.featured-course-video iframe{
+    border-radius: 20px;
+    box-shadow: 0 0 8 #626262;
+    width: 90%
+}
+.featured-course-content{
+    flex: 2;
+}
+.gray{
+    color: gray
+}
+.featured-course-title{
+    font-size: 1.8rem;
+    text-transform: capitalize;
+    color: #333333;
+}
+.featured-course-desc{
+    color: #333333;
+    margin: 10px, 0px;
+    line-height: 25px;
+}
+.featured-course-icons-container{
+    margin: 30px 0px;
+}
+.icons-row{
+    display: flex;
+    justify-content: flex-start;
+}
+.icon-heading{
+    flex: 1;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #626262;
+}
+.icon-heading i{
+    color: #3b4fe4;
+}
+.btn-blue{
+    background-color: #3b4fe4;
+    border: 1px solid #3b4fe4;
+    color: #fff;
+}
+.more-courses-container{
+    padding: 50px, 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.course{
+    display: flex;
+    flex-direction: column;
+    max-width: 380px;
+    align-items: center;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2), 0 2px 10px 0 rgba(0,0,0,0.19);
+    background-color: #fff;
+    border-radius: 20px;
+    margin: 10px;
+}
+.course-img{
+    width: 100%;
+}
+.course-img img{
+    border-radius: 20px;
+    overflow: hidden;
+    width: 100%
+}
+.course-body{
+    padding: 10px 40px;
+    display: flex;
+    flex-direction: column;
+}
+.course-category{
+    color: #626262;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin: 5px 0px;
+}
+.course-title{
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+.course-icons-row{
+    display: flex;
+    justify-content: space-between;
+}
+.course-icon-heading{
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #626262;
+}
+.course-btn{
+    margin: 10px auto;
+    transition: 0.3s;
+}
+.course-btn:hover{
+    background-color: #ff0000;
+    border-color: #ff0000;
+}
+.dots-right{
+    display: flex;
+    justify-content: flex-end;
+    z-index: -1;
+    margin-bottom: -200px;
+    width: 60%
+}
+/* Courses Section End */
+/* Reviews Section Start */
+#reviews{
+    padding: 50px;
+    background-image: url(../images/reviews-bg.svg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.reviews-heading-row{
+    display: flex;
+    margin: 30px 0px;
+}
+.reviews-heading{
+    flex: 1;
+}
+.reviews-heading h2{
+    font-size: 2.5rem;
+    color: #333333;
+    text-transform: capitalize;
+}
+.reviews-btn-container{
+    flex: 1;
+    align-self: flex-end;
+    justify-content: flex-end;
+}
+.btn-outline-blue{
+    border-color: #3b4fe4;
+    color: #3b4fe4;
+    background-color: #fff;
+    transition: 0.3s;
+}
+.btn-outline-blue:hover{
+    background-color: #3b4fe4;
+    color: #fff;
+}
+.reviews-row{
+    display: flex;
+}
+.review{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    box-shadow: 0 40px 80px 0 rgba(192, 190, 190, 0.2), 0 50px 100px 0 rgba(195, 194, 194, 0.19);
+    margin: 40px 20px;
+    border-radius: 10px;
+    padding: 0px 30px 20px 30px;
+}
+.review-img img{
+    border-radius: 10px;
+    box-shadow: 0 5px 8px 0 rgba(56, 56, 56, 0.2), 0 15px 15px 0 rgba(36, 36, 36, 0.19);
+    margin-top: -40px;
+}
+.review-message{
+    color: #333333;
+    margin: 30px 0px;
+    line-height: 25px;  
+}
+.student-name{
+    color: #626262;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: bold;
+}
+/* Reviews Section End */
+/* Contact Us Section Start */
+#contact{
+    padding: 50px;
+}
+.contact-container{
+    display: flex;
+}
+.contact-details{
+    flex: 1;
+    padding: 30px;
+}
+.contact-details-heading{
+    color: #f7b500;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.contact-detail-row{
+    display: flex;
+    margin: 10px 0px;
+}
+.contact-icon i{
+    background-color: #ebedfc;
+    color: #3b4fe4;
+    padding: 10px;
+    border-radius: 50%;
+}
+.contact-content{
+    margin-left: 15px;
+}
+.contact-title{
+    font-size: 14px;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 5px;
+}
+.contact-desc{
+    color: #333333;
+}
+.separator{
+    height: 1px;
+    background-color: #626262;
+    margin: 20px 0px;
+}
+.social-icons i{
+    margin: 10px 20px 0px 0px;
+    font-size: 30px;
+    color: #3b4fe4;
+}
+.contact-form{
+    flex: 1;
+    padding: 30px;
+    box-shadow: 0 40px 80px 0 rgba(123, 121, 121, 0.2), 0 50px 100px 0 rgba(195, 194, 194, 0.19);
+    margin-right: 20px;
+}
+.contact-form-heading{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #3b4fe4;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.form-row{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0px;
+}
+.red{
+    color: #ff0000;
+    font-weight: bold;
+    margin-left: 2px;
+}
+.form-row label{
+    color: #333333;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.input-box{
+    height: 35px;
+    margin: 5px 0px;
+    background-color: #fafafa;
+    border: 1px solid #cbc9c9;
+    border-radius: 3px;
+}
+.checkbox-row{
+    display: flex;
+    justify-content: space-around;
+    margin: 5px 0px;
+}
+.checkbox{
+    flex: 1;
+}
+.form-row textarea{
+    height: 100px;
+    margin: 5px 0px;
+    background-color: #fafafa;
+    border: 1px solid #cbc9c9;
+    border-radius: 3px;
+}
+/* Contact Us Section End */
+/* Footer Section Start */
+#footer{
+    padding: 50px;
+    background-color: black;
+}
+.footer-container{
+    display: flex;
+}
+.website-desc{
+    color: #f9f9f9;
+    line-height: 28px;
+    margin: 10px 0px;
+}
+.col .social-icons i{
+    color: #fff;
+}
+.col{
+    flex: 1;
+    padding: 20px;
+    color: #f9f9f9;
+}
+.col-title{
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.col-items{
+    margin-bottom: 20px;
+}
+.sub-container{
+    display: flex;
+}
+.sub-col{
+    flex: 1;
+}
+.col .contact-detail-row .contact-icon i{
+    color: #f9f9f9;
+    background-color: transparent;
+    font-size: 1rem;
+}
+.col .contact-detail-row .contact-title, .col .contact-detail-row .contact-desc{
+    color: #f9f9f9;
+}
+.copyright-section{
+    color: #f9f9f9;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px;
+    text-transform: uppercase;
+}
+/* Footer Section End */
